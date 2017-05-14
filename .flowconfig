@@ -1,0 +1,8 @@
+[ignore]
+.*/node_modules/jsverify/.*
+
+[libs]
+.stubs.js.flow
+
+[options]
+module.name_mapper='jsverify' -> 'jsverify'
