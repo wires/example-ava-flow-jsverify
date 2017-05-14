@@ -1,6 +1,7 @@
 # Summary
 
-Example repo to demonstrate type checking and property based testing of JS code.
+Example repo to demonstrate type checking and property based testing of
+JS code.
 
 Source file looks like this
 
@@ -31,6 +32,10 @@ test('∀s:string, n:number. (s^n).length = s.length * n',
 	})
 )
 ```
+
+If the test fails, `ava` shows you what is up:
+
+![](screenshot.png)
 
 # Why
 
